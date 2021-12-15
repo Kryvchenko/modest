@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button {
+    font-family: 'Open-sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+header {
+    background-color: #1d2126; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}   
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 80px;
+    width: 1200px;
+    padding: 20px 20px;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+}
+ .nav-links > li {
+     display: inline-block;
+     padding: 0 10px;
+     line-height: 30px;
+ }
+ .nav-links > li:hover {
+     border: 1px solid rgba(255, 255, 255, 0.5);;
+     border-radius: 3px;
+ }
+
+ .input {
+    width: 190px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px; 
+    
+}
+input::-webkit-input-placeholder { 
+    color: white;
+}
+.search {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Open-sans', sans-serif;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.button {
+    float: right;
+    margin: 4px 8px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    background-image: url(images/lens.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+@media (max-width: 400px) {
+    .input {
+        display:none;
+    }
+    .container {
+        display: block;
+        overflow: auto;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .scrollmenu {
+        overflow: auto;
+        white-space: nowrap
+    }
+    .scrollmenu li {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+    }
+   
+}
+@media (max-width: 768px) {
+    .input {
+        display:none;
+    }
+    .container {
+        display: block;
+        overflow: auto;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .scrollmenu {
+        overflow: auto;
+        white-space: nowrap
+    }
+    .scrollmenu li {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+    }
+   
+}
