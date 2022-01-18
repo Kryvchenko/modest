@@ -593,7 +593,7 @@ color: white;
         flex-direction: column;     
     }
     .nav-links > li {
-        line-height: 30px;
+        line-height: 32px;
         margin-top: 2px;
         padding: 0px 12px;
         border: 2px solid rgba(255, 255, 255, 0);
