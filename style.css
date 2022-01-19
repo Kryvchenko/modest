@@ -551,7 +551,7 @@ color: white;
         bottom:3px;
     }
     .navigation {
-        position: fixed;
+        position: absolute;
         width: 150px;
         max-width: 280px;
         top: 0;
